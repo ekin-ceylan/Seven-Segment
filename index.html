@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <script src="seven-segment.js"></script>
+    <link href="seven-segment.css" rel="stylesheet" />
+
+    <script>
+        window.onload = function () {
+            //hazirla();
+            krd = 100;
+            panelEkle(document.getElementById('sgmnt'), 4, "Krd");
+            load(100, 25);
+            yaz(krd, "Krd");
+        }
+    </script>
+</head>
+
+<body>
+    <div id="sgmnt"></div>
+</body>
+
+</html>
